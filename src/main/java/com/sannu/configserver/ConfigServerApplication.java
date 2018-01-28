@@ -18,7 +18,7 @@ public class ConfigServerApplication {
 @RestController
 class DefaultController {
 	
-	@Value("${message:default message}")
+	@Value("${message:default config server}")
 	private String message;
 	
 	@GetMapping("/message")
